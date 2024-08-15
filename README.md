@@ -13,13 +13,13 @@ System.out.println("Prohibido viajar");
 } else if (edad >= 2 && edad < 5) {
 System.out.println("El tiquete es gratuito");
 } else if (edad >= 5 && edad < 11) {
- precioTiquete = precioBase / 2;  // 1/2 precio
+ precioTiquete = precioBase / 2;  
 System.out.println("El valor del tiquete es: $" + precioTiquete);
 } else if (edad >= 11 && edad < 15) {
-precioTiquete = (precioBase * 3) / 4;  // 3/4 precio
+precioTiquete = (precioBase * 3) / 4;  
 System.out.println("El valor del tiquete es: $" + precioTiquete);
 } else {
-precioTiquete = precioBase;  // Precio normal
+precioTiquete = precioBase; 
 System.out.println("El valor del tiquete es: $" + precioTiquete);
 }
 scanner.close();
